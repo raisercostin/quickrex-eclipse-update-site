@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/de.babe.eclipse.features.MC_2.1.1.jar" id="de.babe.eclipse.features.MC" version="2.1.1">
+      <category name="Multi Clipboard"/>
+   </feature>
+   <feature url="features/de.babe.eclipse.features.tinyHTML_1.1.1.jar" id="de.babe.eclipse.features.tinyHTML" version="1.1.1">
+      <category name="tiny HTML Tools"/>
+   </feature>
+   <feature url="features/de.babe.eclipse.features.QuickREx_3.5.0.jar" id="de.babe.eclipse.features.QuickREx" version="3.5.0">
+      <category name="QuickREx"/>
+   </feature>
+   <feature url="features/de.babe.eclipse.features.QuickREx_I18N_1.0.0.jar" id="de.babe.eclipse.features.QuickREx_I18N" version="1.0.0">
+      <category name="QuickREx"/>
+   </feature>
+   <feature url="features/de.babe.eclipse.features.XPathDeveloper_1.0.1.jar" id="de.babe.eclipse.features.XPathDeveloper" version="1.0.1">
+      <category name="XPath-Developer"/>
+   </feature>
+   <feature url="features/de.babe.eclipse.features.Tools_2.0.0.jar" id="de.babe.eclipse.features.Tools" version="2.0.0">
+      <category name="Tools"/>
+   </feature>
+   <category-def name="Tools" label="Tools">
+      <description>
+         Useful Tools for Eclipse - Bundles &apos;Multi Clipboard&apos;, &apos;QuickREx&apos; and &apos;tiny HTML Tools&apos;
+In case you do not want all plugins contained in this feature to be installed, select the ones you want 
+separately in the update manager.
+      </description>
+   </category-def>
+   <category-def name="Multi Clipboard" label="Multi Clipboard">
+      <description>
+         Multi Clipboard gives you a clipboard for text- and source-code
+editor contents that holds multiple entries. You can collect
+some snippets by adding them to the Multi Clipboard and then
+paste any of them to where you need them.
+You can configure the plug-in to save the contents of your Multi
+Clipboard to a file when Eclipse is closed. Contents are then
+reloaded when Eclipse is opened. You can even configure the plug-in
+to enable editing the contents of the Multi Clipboard.
+      </description>
+   </category-def>
+   <category-def name="tiny HTML Tools" label="tiny HTML Tools">
+      <description>
+         tiny HTML Tools are just what the name suggests: A set of very
+small but useful actions added to the Eclipse text-editor which
+let you write simple formatted HTML-contents easier.
+      </description>
+   </category-def>
+   <category-def name="QuickREx" label="QuickREx">
+      <description>
+         QuickREx is a tool to test, play with, and use Regular Expressions.
+It offers evaluation as-you-type and highlighting of matches,
+navigation through matches and navigation through groups 
+in matches as well as grepping (extracting) matches.
+You can save regular expressions and test-texts that they are
+matched against into a persistent store for later reference.
+You can also load file-contents as test-texts.
+      </description>
+   </category-def>
+   <category-def name="XPath-Developer" label="XPath-Developer">
+      <description>
+         XPath-Developer is a tool to test, play with, and use XPath Expressions.
+It offers evaluation as-you-type or on-demand and allows to choose
+the output-type. It also offers TAB-Completion.
+You can save expressions into a persistent store for later reference.
+      </description>
+   </category-def>
+</site>
