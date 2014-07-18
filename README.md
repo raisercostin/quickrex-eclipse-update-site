@@ -1,0 +1,2 @@
+quickrex-eclipse-update-site
+============================
