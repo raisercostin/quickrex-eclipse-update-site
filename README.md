@@ -1,9 +1,13 @@
 quickrex-eclipse-update-site
 ============================
+#QuickREx-3.5.0 update site
+- http://raisercostin.googlecode.com/svn/eclipse-update-site/quickrex/
 
 #QuickRex archive
 - https://web.archive.org/web/20080207172859/http://www.bastian-bergerhoff.com/eclipse/features/site.xml
 - https://web.archive.org/web/*/http://www.bastian-bergerhoff.com/*
+- http://sourceforge.net/p/quickrex/code/?source=navbar
+- https://github.com/search?q=quickrex&type=Repositories&ref=searchresults
 
 #Google terms
 - eclipse p2 layout
